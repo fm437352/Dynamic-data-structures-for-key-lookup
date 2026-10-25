@@ -18,7 +18,7 @@ int main() {
     std::vector<unsigned char*> ArregloDinamico;
 
     // abrir archivo D1.txt
-    ifstream archivoD1("D1.txt");
+    ifstream archivoD1("Dato/D1.txt");
     if (!archivoD1)
         return 1;
 
@@ -64,7 +64,7 @@ int main() {
     archivoD1.close();
 
     // abrir archivo D2.txt
-    ifstream archivoD2("D2.txt");
+    ifstream archivoD2("Datos/D2.txt");
     if (!archivoD2)
         return 1;
     //insercion
