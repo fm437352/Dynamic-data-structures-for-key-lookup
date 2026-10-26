@@ -2,7 +2,8 @@
 Integrantes: Francisca Muñoz(aka fm437352), Dalma Redoles(aka vennusss), Néstor Sepúlveda(aka nachoswi).
 
 
-# Para poder acceder al archivo principal:
+
+Para poder acceder al archivo principal:
 ```bash
 # bash
 
