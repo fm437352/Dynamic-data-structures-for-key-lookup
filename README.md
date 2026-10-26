@@ -1,8 +1,8 @@
 # Dynamic-Data-Structures-for-Key-Lookup
-integrantes: Francisca Muñoz(aka fm437352), Dalma Redoles(aka vennusss), Néstor Sepúlveda(aka nachoswi).
+Integrantes: Francisca Muñoz(aka fm437352), Dalma Redoles(aka vennusss), Néstor Sepúlveda(aka nachoswi).
 
 
-
+# Para poder acceder al archivo principal:
 ```bash
 # bash
 
