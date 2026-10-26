@@ -39,11 +39,20 @@ int main() {
     }
     archivoD1.close();
     //busqueda
-
+   
+    
+    
+    ifstream archivoD2("Datos/D2.txt");
+    if (!archivoD2) {
+        cerr << "Error al abrir D2.txt" << endl;
+        return 1;
+    }
     //inserción 
 
     //eliminación
 
+    archivoD2.close();
+    
     // Medición tiempo palabras
     auto fin_tiempo = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::milli> duracion = fin_tiempo - inicio_tiempo;
