@@ -67,9 +67,29 @@ int main() {
     ifstream archivoD2("Datos/D2.txt");
     if (!archivoD2)
         return 1;
-    //insercion
+    
+    string leer_d2;
+    bool alternar=true;
 
-    //eliminacion 
+    while(archivoD2 >> leer_d2){
+        uchar* palabra_d2 = new uchar[leer_d2.length() + 1];
+        std::strcpy((char*)palabra_d2, leer_pa_d2.c_str());
+
+        if(alternar){
+            //insercion
+        }
+        else{
+            //Eliminación
+            auto it = std::lower_bound(ArregloDinamico.begin(), ArregloDinamico.end(), palabra_d2, comparador);
+            if(it != ArregloDinamico.end() && std::strcmp((char*)*it, (char*)palabra_d2) == 0){
+                delete[] *it;
+                ArregloDinamico.erase(it);
+            }
+            delete[] palabra_d2;
+        }
+        alternar = !alternar;
+    }
+            
     archivoD2.close();
 
 }
