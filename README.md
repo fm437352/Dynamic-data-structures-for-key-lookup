@@ -1,4 +1,4 @@
-´´bash
+```bash
 # bash
 
 # Compila las dos soluciones con distintos valores de K y REP (ejemplo K=64 y REP=200):
