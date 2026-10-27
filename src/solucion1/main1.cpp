@@ -18,7 +18,7 @@ int main() {
     std::vector<unsigned char*> ArregloDinamico;
 
     // Abrir archivo D1.txt
-    ifstream archivoD1("D1.txt");
+    ifstream archivoD1("Datos/D1.txt");
     if (!archivoD1)
         return 1;
 
@@ -78,7 +78,7 @@ int main() {
     cout << "Bytes: " << memoria_busqueda << " bytes" << endl;
 
     // Abrir archivo D2.txt
-    ifstream archivoD2("D2.txt");
+    ifstream archivoD2("Datos/D2.txt");
     if (!archivoD2)
         return 1;
 
