@@ -2,6 +2,8 @@
 Integrantes: Francisca Muñoz(aka fm437352), Dalma Redoles(aka vennusss), Néstor Sepúlveda(aka nachoswi).
 
 Resumen del trabajo 
+
+
 En este trabajo hacemos un arreglo dinamico y una lista circular doblemente enlazada, donde les agregamos dos diccionarios
 con el diccionaro uno hacemos la busqueda de las dos estructuras y con el segundo diccionario hacemos la insercion y la eliminacion
 de forma intercalada para los dos métodos se miden y comparan los tiempos de ejecución en la insercion, busqueda y eliminacion, asi como 
