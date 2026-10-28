@@ -39,3 +39,6 @@ solucion 2:
 
 
 justificaciones de la stl
+
+Se utilizaron  las operaciones de STL debido mayoritariamente a la función de cada una, debido a que realizaban un comando específico que nos ahorraba el tiempo de hacer el código personalmente cada vez que se necesitará, reduciendo el tiempo de demora, mejorando el rendimiento del código y no dejando cabida a errores dando más tiempo a pulir detalles y en general a hacer el código principal y la solución envés de demorarse en instrucciones que son para dar paso a las soluciones realizadas, el uso de la STL es beneficioso en general para la optimalidad de los códigos en los que se permite usar esta.
+
