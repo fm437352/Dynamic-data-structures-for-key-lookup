@@ -33,9 +33,9 @@ make run2
 
 funcionalidad del codigo 
 
-solucion 1:
+solución 1: la solución se basa en crear un arreglo dinámico usando métodos vistos en clase y la STL, usar el diccionario que nos dieron para el mismo, con las funciones de eliminación e inserción seleccionar cierto numero de palabras que añadimos a nuestro arreglo dinámico con el fin de luego buscar dentro del arreglo si se encuentran unas palabras seleccionadas dentro y medir el tiempo que se tarda en hacer todo este proceso desde la creación del arreglo hasta si se encuentran las palabras en el arreglo, haciendo la búsqueda con el comando de la STL binary search.
 
-solucion 2:
+solución 2: la solución se basa en crear una lista circular doblemente enlazada usando la STL y métodos vistos en clase, usar el diccionario que nos dieron para el mismo, con las funciones de eliminación e inserción seleccionar cierto numero de palabras que añadimos a nuestra lista circular doblemente enlazada con el fin de luego buscar dentro de la lista si se encuentran unas palabras seleccionadas entre las de la lista y medir el tiempo que se tarda en todo este proceso desde la creación de la lista hasta si se encuentran las palabras en el dentro de ella, con la diferencia de que aquí la lista se recorre usando un puntero.
 
 
 justificaciones de la stl
